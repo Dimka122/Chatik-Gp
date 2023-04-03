@@ -40,7 +40,7 @@
             // 
             // txtUsername
             // 
-            this.txtUsername.Location = new System.Drawing.Point(306, 24);
+            this.txtUsername.Location = new System.Drawing.Point(292, 24);
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(142, 20);
             this.txtUsername.TabIndex = 0;
@@ -57,12 +57,13 @@
             // 
             // btnRegister
             // 
+            this.btnRegister.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnRegister.Location = new System.Drawing.Point(454, 24);
             this.btnRegister.Name = "btnRegister";
-            this.btnRegister.Size = new System.Drawing.Size(125, 23);
+            this.btnRegister.Size = new System.Drawing.Size(125, 32);
             this.btnRegister.TabIndex = 2;
             this.btnRegister.Text = "зарегистрироваться";
-            this.btnRegister.UseVisualStyleBackColor = true;
+            this.btnRegister.UseVisualStyleBackColor = false;
             this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
             // 
             // label2
@@ -102,18 +103,20 @@
             // 
             // btnSend
             // 
+            this.btnSend.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnSend.Location = new System.Drawing.Point(176, 114);
             this.btnSend.Name = "btnSend";
-            this.btnSend.Size = new System.Drawing.Size(239, 23);
+            this.btnSend.Size = new System.Drawing.Size(239, 37);
             this.btnSend.TabIndex = 7;
             this.btnSend.Text = "задать вопрос";
-            this.btnSend.UseVisualStyleBackColor = true;
+            this.btnSend.UseVisualStyleBackColor = false;
             this.btnSend.Click += new System.EventHandler(this.btnSend_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.ClientSize = new System.Drawing.Size(586, 353);
             this.Controls.Add(this.btnSend);
             this.Controls.Add(this.txtAnswer);
